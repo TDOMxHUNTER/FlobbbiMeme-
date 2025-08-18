@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'FlobbiMeme',
-  description: 'Next.js app with Three.js hyperspeed background',
+  description: 'The FlobbiMeme Official Website',
   icons: {
     icon: '/flobbi.ico',
   },
