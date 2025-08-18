@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Orbitron', monospace;
+  font-weight: bold;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  max-width: 100vw;
+}
+
+body {
+  color: #ffffff;
+  background: #000000;
+  line-height: 1.5;
+}
+
+/* Ensure background elements don't interfere with scrolling */
+div[style*="position: fixed"][style*="zIndex: 1"] {
+  pointer-events: none;
+}
+
+/* Allow interaction with navigation */
+div[style*="position: fixed"][style*="zIndex: 99"] {
+  pointer-events: auto;
+}
+
+/* Make sure main content areas allow scrolling */
+main {
+  pointer-events: auto;
+}
+
+/* Container-specific pointer events */
+.scrollable-container {
+  pointer-events: auto;
+}
+
+/* Ensure all page content allows normal scrolling */
+body {
+  pointer-events: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
