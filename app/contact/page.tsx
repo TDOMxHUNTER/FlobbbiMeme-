@@ -82,7 +82,7 @@ export default function Contact() {
             gap: '20px'
           }}>
             <a
-              href="mailto:flobbimeme@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=flobbimeme@gmail.com"
               style={{
                 background: 'rgba(0, 255, 255, 0.1)',
                 border: '1px solid #00ffff',
