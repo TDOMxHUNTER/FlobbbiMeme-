@@ -87,22 +87,27 @@ export default function HowToBuy() {
         }}>
           <div style={{ marginBottom: '2rem' }}>
             <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 1: Set Up Your Wallet</h2>
-            <p>Download and install a compatible wallet like MetaMask, Trust Wallet, or Phantom Wallet. Make sure to securely store your recovery phrase.(Do Not Give Anyone Your Phassphrase).</p>
+            <p>Download and install a compatible wallet like MetaMask, Trust Wallet, or Phantom Wallet.</p>
+            <p>Make sure to securely store your recovery phrase.(Do Not Give Anyone Your Phassphrase).</p>
           </div>
 
           <div style={{ marginBottom: '2rem' }}>
             <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 2: Get Some SOL</h2>
-            <p>Purchase Solana (SOL) from a centralized exchange like Coinbase, Binance, or Kraken. Transfer the funds to your wallet.</p>
+            <p>Purchase Solana (SOL) from a centralized exchange like Coinbase, Binance, or Kraken.</p>
+            <p>Transfer the funds to your wallet.</p>
           </div>
 
           <div style={{ marginBottom: '2rem' }}>
-            <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 3: Connect to PumpFUN</h2>
-            <p>Visit a decentralized exchange like Uniswap (for Ethereum) or Raydium (for Solana). Connect your wallet to the platform.</p>
+            <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 3: Visit the Official DEX</h2>
+            <p>🛒 Buy on: Raydium (Solana)</p>
+            <p>📌 Paste our official token contract:Coming Soon ...</p>
           </div>
 
           <div style={{ marginBottom: '2rem' }}>
-            <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 4: Swap for FLOBBI</h2>
-            <p>Search for FLOBBI token using our contract address. Enter the amount you want to swap and confirm the transaction. Make sure to check slippage settings.</p>
+            <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 4: Swap & Confirm</h2>
+            <p>Select SOL → $FLOBBI</p>
+            <p>Set slippage to 4–6% if needed</p>
+            <p>Confirm the swap and wait for success</p>
           </div>
 
           <div style={{ marginBottom: '2rem' }}>
