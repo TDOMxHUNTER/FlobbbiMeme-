@@ -325,7 +325,7 @@ export default function Team() {
             <h3 style={{ color: '#00ffff', marginBottom: '0.5rem' }}>Flobbi Telegram Manager</h3>
             <p style={{ color: '#fff', marginBottom: '0.5rem', fontWeight: 'bold' }}>Lareyyy</p>
             <p style={{ color: '#000', fontSize: '0.9rem', marginBottom: '1rem' }}>Handle Telegram Commnuity</p>
-            <a href="https://x.com/lisawang" target="_blank" rel="noopener noreferrer" style={{
+            <a href="https://x.com/FineBoy_Larey" target="_blank" rel="noopener noreferrer" style={{
               color: '#00ffff',
               textDecoration: 'none',
               fontSize: '0.9rem',
