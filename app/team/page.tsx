@@ -140,7 +140,7 @@ export default function Team() {
             <h3 style={{ color: '#00ffff', marginBottom: '0.5rem' }}>Co-Founder</h3>
             <p style={{ color: '#fff', marginBottom: '0.5rem', fontWeight: 'bold' }}>Alex Williams</p>
             <p style={{ color: '#000', fontSize: '0.9rem', marginBottom: '1rem' }}>Mysterious Person 2.0</p>
-            <a href="yo" target="_blank" rel="noopener noreferrer" style={{
+            <a href="https://x.com/alex_willy2" target="_blank" rel="noopener noreferrer" style={{
               color: '#00ffff',
               textDecoration: 'none',
               fontSize: '0.9rem',
@@ -148,7 +148,7 @@ export default function Team() {
               padding: '0.5rem 1rem',
               borderRadius: '20px',
               transition: 'all 0.3s ease'
-            }}>i dont know</a>
+            }}>@Alex Williams</a>
           </div>
 
           <div style={{
