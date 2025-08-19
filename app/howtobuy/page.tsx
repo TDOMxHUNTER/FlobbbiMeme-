@@ -88,7 +88,8 @@ export default function HowToBuy() {
           <div style={{ marginBottom: '2rem' }}>
             <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 1: Set Up Your Wallet</h2>
             <p>Download and install a compatible wallet like MetaMask, Trust Wallet, or Phantom Wallet.</p>
-            <p>Make sure to securely store your recovery phrase.(Do Not Give Anyone Your Phassphrase).</p>
+            <p>Make sure to securely store your recovery phrase.</p>
+            <p>(Do Not Give Anyone Your Phassphrase).</p>
           </div>
 
           <div style={{ marginBottom: '2rem' }}>
@@ -100,19 +101,20 @@ export default function HowToBuy() {
           <div style={{ marginBottom: '2rem' }}>
             <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 3: Visit the Official DEX</h2>
             <p>🛒 Buy on: Raydium (Solana)</p>
-            <p>📌 Paste our official token contract:Coming Soon ...</p>
+            <p>📌 Paste our official token contract: Coming Soon ...</p>
           </div>
 
           <div style={{ marginBottom: '2rem' }}>
             <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 4: Swap & Confirm</h2>
-            <p>Select SOL → $FLOBBI</p>
-            <p>Set slippage to 4–6% if needed</p>
-            <p>Confirm the swap and wait for success</p>
+            <p>Select SOL → $FLOBBI.</p>
+            <p>Set slippage to 4–6% if needed.</p>
+            <p>Confirm the swap and wait for success.</p>
           </div>
 
           <div style={{ marginBottom: '2rem' }}>
             <h2 style={{ color: '#00ffff', marginBottom: '1rem' }}>Step 5: Add FLOBBI to Your Wallet</h2>
             <p>Add FLOBBI as a custom token in your wallet using our contract address to view your balance.</p>
+            <p>Contract address is Coming SOON its not revealed yet</p>
           </div>
 
           <div style={{
