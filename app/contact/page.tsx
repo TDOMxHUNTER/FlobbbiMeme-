@@ -82,7 +82,20 @@ export default function Contact() {
             gap: '20px'
           }}>
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=flobbimeme@gmail.com"
+              href="mailto:flobbimeme@gmail.com"
+              onClick={(e) => {
+                e.preventDefault();
+                if (/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                  // Mobile device - try to open Gmail app, fallback to mailto
+                  window.location.href = "googlegmail://co?to=flobbimeme@gmail.com";
+                  setTimeout(() => {
+                    window.location.href = "mailto:flobbimeme@gmail.com";
+                  }, 500);
+                } else {
+                  // Desktop - open Gmail web
+                  window.open("https://mail.google.com/mail/?view=cm&fs=1&to=flobbimeme@gmail.com", "_blank");
+                }
+              }}
               style={{
                 background: 'rgba(0, 255, 255, 0.1)',
                 border: '1px solid #00ffff',
